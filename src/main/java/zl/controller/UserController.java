@@ -44,7 +44,7 @@ public class UserController
 		vo.setPassword("DEPT-Provider");
 		return vo;
 	}
-
+ 
 	@RequestMapping("/add")
 	public String demo3(TestUser testUser)
 	{
